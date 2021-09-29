@@ -1,0 +1,133 @@
+html, body {
+    background-color: #f4fafa;
+    font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-size: 1em;
+    color: #282c2a;
+}
+header {
+    /* vertical-align: middle; */
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    /* opacity: 0.9; */
+    /* background-color: #2389ab; */
+}
+h2 {
+    font-size: 1.4em;
+    font-family: "Inconsolata", 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color:#69b19e;
+}
+section {
+    /* width: 70%;
+    margin: auto;
+    margin-bottom: 2em;
+    float: left; */
+    line-height:1.7;
+}
+a, a:visited {
+    font-family: inherit;
+    color: rgb(251,150,11);
+}
+a img.link {
+    height: 1em;
+    width: auto;
+}
+#menu {
+    left: 11em;
+    top: 8em;
+    position: absolute;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+#menu li {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+#banner-img {
+    max-height: 8em;
+    margin-left: 5%;
+}
+#title {
+    font-weight: 800;
+    font-size: 2em;
+    color: #69b19e;
+    font-family: "Inconsolata", 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 0.5em;
+}
+ul {
+    padding-left: 1em;
+    margin: 0;
+    list-style-type: circle;
+}
+#publications li, #education li {
+    margin-bottom: 0.5em;
+}
+#publications { 
+    width: 100%;
+}
+span.authors {
+    font-style: italic;
+    color: #616864;
+}
+#body {
+    padding-top: 100px;
+    margin: auto;
+    width: 70%;
+    overflow: auto;
+    /* min-width: 25em; */
+}
+@media only screen and (max-width: 768px) {
+    #body {
+        width: 80%;
+    }
+}
+
+h3 {
+    font-size: 1.05em;
+    margin: 0;
+    font-weight: 400;
+}
+#intro {
+    /* width: 70%; */
+    /* height: 15em; */
+}
+#portait {
+    width: 25%;
+    min-width: 5em;
+    float: right;
+}
+@media only screen and (max-width: 768px) {
+  #portait {
+    width: 50%;
+    display: block;
+    float: none;
+    margin: auto;
+    max-width: 200px;
+  }
+}
+#portrait-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+}
+.icon {
+    height: 1.1em;
+    vertical-align: text-bottom;
+    margin-right: 0.5em;
+}
+
+#about-me ul li {
+    margin-bottom: 0.5em;
+}
