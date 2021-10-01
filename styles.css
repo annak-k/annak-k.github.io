@@ -33,6 +33,7 @@ a, a:visited {
 a img.link {
     height: 1em;
     width: auto;
+    vertical-align: text-bottom;
 }
 #menu {
     left: 11em;
@@ -93,10 +94,7 @@ h3 {
     margin: 0;
     font-weight: 400;
 }
-#intro {
-    /* width: 70%; */
-    /* height: 15em; */
-}
+
 #portait {
     width: 25%;
     min-width: 5em;
