@@ -1,17 +1,14 @@
 html, body {
-    background-color: #f4fafa;
+    /* background-color: #f3fafa; */
     font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    font-size: 1em;
+    font-size: 14pt;
     color: #282c2a;
 }
 header {
-    /* vertical-align: middle; */
-    position: absolute;
     background-color: inherit;
     width: 100%;
-    /* opacity: 0.9; */
-    /* background-color: #2389ab; */
+    margin-top: 2em;
 }
 h2 {
     font-size: 1.4em;
@@ -77,7 +74,7 @@ span.authors {
     color: #616864;
 }
 #body {
-    padding-top: 100px;
+    padding-top: 2em;
     margin: auto;
     width: 70%;
     overflow: auto;
@@ -99,6 +96,9 @@ h3 {
     width: 25%;
     min-width: 5em;
     float: right;
+    opacity: 0.9;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 @media only screen and (max-width: 768px) {
   #portait {
