@@ -1,5 +1,4 @@
 html, body {
-    /* background-color: #f3fafa; */
     font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     font-size: 14pt;
@@ -8,7 +7,7 @@ html, body {
 header {
     background-color: inherit;
     width: 100%;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 h2 {
     font-size: 1.4em;
@@ -17,34 +16,20 @@ h2 {
     color:#69b19e;
 }
 section {
-    /* width: 70%;
-    margin: auto;
-    margin-bottom: 2em;
-    float: left; */
     line-height:1.7;
 }
 a, a:visited {
     font-family: inherit;
-    color: rgb(251,150,11);
+    color: hsl(36, 100%, 50%);
+}
+a:hover {
+    /* darken color on hover */
+    color: hsl(36, 100%, 47%);
 }
 a img.link {
     height: 1em;
     width: auto;
     vertical-align: text-bottom;
-}
-#menu {
-    left: 11em;
-    top: 8em;
-    position: absolute;
-    margin: 0;
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-    display: inline-block;
-}
-#menu li {
-    display: inline-block;
-    margin-right: 1.5em;
 }
 #banner-img {
     max-height: 8em;
@@ -70,20 +55,14 @@ ul {
     width: 100%;
 }
 span.authors {
+    color: #616864;
+}
+span.publication {
     font-style: italic;
     color: #616864;
 }
 #body {
-    padding-top: 2em;
-    margin: auto;
-    width: 70%;
-    overflow: auto;
-    /* min-width: 25em; */
-}
-@media only screen and (max-width: 768px) {
-    #body {
-        width: 80%;
-    }
+    padding: 1em 10%;
 }
 
 h3 {
@@ -92,27 +71,34 @@ h3 {
     font-weight: 400;
 }
 
-#portait {
-    width: 25%;
-    min-width: 5em;
-    float: right;
-    opacity: 0.9;
-    margin-left: 5%;
-    margin-bottom: 5%;
-}
-@media only screen and (max-width: 768px) {
-  #portait {
-    width: 50%;
-    display: block;
-    float: none;
-    margin: auto;
-    max-width: 200px;
-  }
+#portrait {
+    width: 100%;
 }
 #portrait-img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
+    background-image: url("portrait_2024.jpg");
+    background-position: 50% 10%;
+    background-size: cover;
+    float: right;
+    margin: 1em;
+}
+
+/* small screens */
+@media screen and (max-width: 600px) {
+    #portrait-img {
+        float: none;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #body {
+        padding: 1em 5%;
+    }
 }
 
 footer {
